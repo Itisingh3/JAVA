@@ -1,7 +1,7 @@
-class 01_TestThread1 extends Thread{
+class TestThread1 extends Thread{
     public static void main(String... arr){
-        01_TestThread1 t1=new 01_TestThread1();
-        01_TestThread1 t2=new 01_TestThread1();
+        TestThread1 t1=new TestThread1();
+        TestThread1 t2=new TestThread1();
         
         t1.start();
         t2.start();
