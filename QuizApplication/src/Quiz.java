@@ -31,7 +31,7 @@ public class Quiz extends JFrame implements ActionListener{
 	        setLayout(null);
 	        setVisible(true);
 	        
-	        ImageIcon i1 = new ImageIcon("C:\\Users\\Iti Singh\\Documents\\java developer\\Images\\quiz.jpg");
+	        ImageIcon i1 = new ImageIcon("image path for quiz page");
 	        JLabel image = new JLabel(i1);
 	        image.setBounds(0, 0, 1440, 392);
 	        add(image);
